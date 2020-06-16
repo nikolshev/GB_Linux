@@ -1,0 +1,20 @@
+﻿#1-е задание
+~$mkdir first second
+~$echo > first/first.py > second/second.py
+~$echo "print('1')" > first/first.py
+~$echo "print('2')" > second/second.py
+
+#2-е задание
+~$mv second/second.py first/
+
+
+#3-е задание
+~$rm -r second/
+
+
+#4-е задание
+~$mv first first_second
+
+#5-е задание
+~$rm -r first_second/
+
